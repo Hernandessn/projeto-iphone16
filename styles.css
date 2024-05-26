@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.imgtr{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+  
+}
+.conteudo{
+  margin-right: 500px;
+  padding: 20px;
+}
+h3 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+p {
+  margin-bottom: 10px;
+}
+.comprar{ 
+  background-color: #0071e3;
+  border-radius: 20px;
+  color: #ffffff;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+} 
+.comprar:hover{
+  background-color: #81a5c4;
+}
+h5 {
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 30px;
+  color: #323232;
+  margin-bottom: 10px;
+} 
+
+button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+#azul{
+    background-color: #81a5c4;
+}
+#amarelo{
+    background-color: #F7da47;
+}
+#branco{
+    background-color: #b9b8b8;
+}
+#preto{
+    background-color: rgb(0, 0, 0);
+}
+#vermelho{
+    background-color: rgb(158, 32, 32);
+}
+#roxo{
+    background-color: rgb(105, 82, 128);
+}
+
+
+@keyframes black-aparece {
+    0%{
+       clip-path: circle(0%);
+    }
+    40%{
+      clip-path: circle(900px at right 1000px);
+    }
+    100%{
+      clip-path: 700px at right 1000px;
+    }
+}
+@keyframes blue-aparece {
+    0%{
+       clip-path: circle(0%);
+    }
+    40%{
+      clip-path: circle(900px at right 1000px);
+    }
+    100%{
+      clip-path: 700px at right 1000px;
+    }
+}
+@keyframes yellow-aparece {
+    0%{
+       clip-path: circle(0%);
+    }
+    40%{
+      clip-path: circle(900px at right 1000px);
+    }
+    100%{
+      clip-path: 700px at right 1000px;
+    }
+  }
+  @keyframes white-aparece {
+    0%{
+       clip-path: circle(0%);
+    }
+    40%{
+      clip-path: circle(900px at right 1000px);
+    }
+    100%{
+      clip-path: 700px at right 1000px;
+    }
+  }
+  @keyframes red-aparece {
+    0%{
+       clip-path: circle(0%);
+    }
+    40%{
+      clip-path: circle(900px at right 1000px);
+    }
+    100%{
+      clip-path: 700px at right 1000px;
+    }
+  }
+  @keyframes purple-aparece {
+    0%{
+       clip-path: circle(0%);
+    }
+    40%{
+      clip-path: circle(900px at right 1000px);
+    }
+    100%{
+      clip-path: 700px at right 1000px;
+    }
+  }
+  @keyframes iphone-aparace {
+    0%{
+       width: 10px;
+    }
+    40%{
+    width: 500px at right 200px;
+    }
+    100%{
+     width: 300px;
+    }
+  }
+  @media (max-width:800px){
+    .container{
+      flex-direction: column;
+    }
+    .conteudo{
+      margin-right: 10px;
+    }
+    @keyframes iphone-aparace {
+      0%{
+         width: 10px;
+      }
+      40%{
+      width: 300px at right 100px;
+      }
+      100%{
+       width: 300px;
+      }
+    }
+  }
+   
